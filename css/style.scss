@@ -1,0 +1,46 @@
+@import "clear.scss";
+@import "variables.scss";
+
+body{
+    background-color: $white-color;
+    color: $black-color;
+    overflow-x: hidden;
+    .header{
+        text-align: center;
+        background-image: url("/img/baner.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 100px;
+        color: $white-color;
+    }
+    .offer{
+        padding: 50px;
+        text-align: center;
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            padding-bottom: 15px;
+        }
+    }
+    .about{
+        background-color: $black-color;
+        color: $white-color;
+        #text{
+            padding: 50px;
+        }
+    }
+    .opinions{
+        text-align: center;
+        padding: 50px;
+        
+    }
+   .contact{
+    background-color: $black-color;
+    color: $white-color;
+    padding: 50px;
+   }
+   form{
+    text-align: center;;
+   }
+}
